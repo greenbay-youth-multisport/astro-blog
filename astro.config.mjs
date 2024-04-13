@@ -6,6 +6,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'greenbay-youth-multisport.github.io',
-	integrations: [mdx(), sitemap()],
-	base: '/astro-blog'
+	integrations: [mdx(), sitemap()]
 });
